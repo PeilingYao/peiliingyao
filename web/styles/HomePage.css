@@ -19,6 +19,7 @@
 }
 
 .logo{
+  font-family: "San Francisco", Arial, sans-serif;
   font-size: 30px;
   color:gainsboro;
   text-decoration: none;
@@ -48,6 +49,7 @@
 }
 
 .social-media a i {
+  font-family: "San Francisco", Arial, sans-serif;
   font-size: 20px;
   color: gainsboro;
 }
@@ -90,6 +92,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: #fff;
+  font-family: "San Francisco", Arial, sans-serif;
   font-size: 18px;
 }
 
@@ -126,6 +129,7 @@ nav ul li a {
 }
 
 .penetrate-blur p {
+  font-family: "San Francisco", Arial, sans-serif;
   font-size: 18px; /* 文本字号，根据需要调整 */
   margin-bottom: 15px; /* 文本段落之间的垂直间距，根据需要调整 */
   color: gainsboro; 
@@ -138,6 +142,7 @@ nav ul li a {
 
 
 .penetrate-blur h2 {
+  font-family: "San Francisco", Arial, sans-serif;
   font-size: 250px;
   color: aliceblue;
 }
@@ -180,12 +185,14 @@ nav ul li a {
 }
 
 .right-text p{
+  font-family: "San Francisco", Arial, sans-serif;
   font-size: 20px;
   line-height: 165%;
   color: rgb(240, 232, 232);
 }
 
 .right-text h1{
+  font-family: "San Francisco", Arial, sans-serif;
   font-size: 42px;
   line-height: 165%;
   color: rgb(240, 232, 232);

@@ -6,7 +6,6 @@
 }
 /* 背景图设置 */
 body{
-  background-image: url('/Users/peilingyao/Desktop/web/images/background-6.jpeg'); /* 背景图像的路径 */
   background-size: cover; /* 背景图像大小：cover 表示覆盖整个视口 */
   background-attachment: fixed; /* 背景图像固定在视口 */
   background-position: center center; /* 背景图像居中对齐 */
@@ -31,6 +30,7 @@ body{
 
 
 .logo{
+  font-family: "San Francisco", Arial, sans-serif;
   font-size: 30px;
   color:gainsboro;
   text-decoration: none;
@@ -60,6 +60,7 @@ body{
 }
 
 .social-media a i {
+  font-family: "San Francisco", Arial, sans-serif;
   font-size: 20px;
   color: gainsboro;
 }
@@ -106,6 +107,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: #fff;
+  font-family: "San Francisco", Arial, sans-serif;
   font-size: 18px;
 }
 
@@ -142,6 +144,7 @@ nav ul li a {
 }
 
 .penetrate-blur p {
+  font-family: "San Francisco", Arial, sans-serif;
   font-size: 18px; /* 文本字号，根据需要调整 */
   margin-bottom: 15px; /* 文本段落之间的垂直间距，根据需要调整 */
   color: rgb(236, 233, 233); 
@@ -154,6 +157,7 @@ nav ul li a {
 
 
 .penetrate-blur h2 {
+  font-family: "San Francisco", Arial, sans-serif;
   font-size: 250px;
   color: aliceblue;
 }
@@ -192,10 +196,12 @@ nav ul li a {
 }
 
 .right-text h1{
+  font-family: "San Francisco", Arial, sans-serif;
   font-size: 32;
 }
 
 .right-text p{
+  font-family: "San Francisco", Arial, sans-serif;
   font-size: 18px;
 }
 
@@ -218,15 +224,18 @@ nav ul li a {
 }
 
 .publis-economics h1{
+  font-family: "San Francisco", Arial, sans-serif;
   font-size: 32;
   line-height: 200%;
 }
 
 .publis-economics p{
+  font-family: "San Francisco", Arial, sans-serif;
   font-size: 18px;
   line-height: 150%;
 }
 .publis-economics a{
+  font-family: "San Francisco", Arial, sans-serif;
   font-size: 18px;
   line-height: 150%;
   color: rgb(240, 232, 232);
@@ -249,15 +258,19 @@ nav ul li a {
 }
 
 .international-trade h1{
+  font-family: "San Francisco", Arial, sans-serif;
   font-size: 32;
   line-height: 200%;
 }
 
 .international-trade p{
+  font-family: "San Francisco", Arial, sans-serif;
+
   font-size: 18px;
   line-height: 150%;
 }
 .international-trade a{
+  font-family: "San Francisco", Arial, sans-serif;
   font-size: 18px;
   line-height: 150%;
   color: rgb(240, 232, 232);
