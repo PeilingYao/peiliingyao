@@ -1,0 +1,264 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+/* 背景图设置 */
+body{
+  background-image: url('/Users/peilingyao/Desktop/web/images/background-6.jpeg'); /* 背景图像的路径 */
+  background-size: cover; /* 背景图像大小：cover 表示覆盖整个视口 */
+  background-attachment: fixed; /* 背景图像固定在视口 */
+  background-position: center center; /* 背景图像居中对齐 */
+  z-index: -1; /* 将背景图置于最底层 */
+}
+
+
+/* 顶部条形设置 */
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  padding: 20px 5%;
+  background: rgb(83, 37, 12);
+  display: flex;
+  align-items: center;
+  z-index: 100;
+}
+
+
+
+.logo{
+  font-size: 30px;
+  color:gainsboro;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.social-media{
+  margin: 0 auto 0 50px;
+}
+
+.social-media a:hover {
+  background: gainsboro;
+}
+
+.social-media a{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid gainsboro;
+  border-radius: 6px;
+  text-decoration: none; 
+  margin-right: 10px;
+  transition: .5s;
+}
+
+.social-media a i {
+  font-size: 20px;
+  color: gainsboro;
+}
+
+.social-media a:hover i {
+  color: #444
+}
+
+/* 导航栏设置 */
+
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  padding: 20px 5%;
+  background: rgb(63, 28, 9);
+  display: flex;
+  z-index: 100;
+  align-items: center;
+}
+.logo {
+  width: 50px;
+  cursor: pointer;
+  text-align: left;
+
+}
+.menu-icon {
+  width: 30px;
+  cursor: pointer;
+  margin-left: 40px;
+}
+nav {
+  flex: 1;
+  text-align: right;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 30px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.slider .slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}   
+
+.slide img{
+  position: fixed;
+  width: 150%;
+  height: 150%;
+  pointer-events: none;
+}
+/* 左侧边框设置 */
+.slide .left-info .penetrate-blur {
+
+    position: fixed;
+    top: 80px;
+    left: 0;
+    width: 300px; 
+    height: 100%;
+    background-color: rgba(83, 37, 12, 0.4); 
+    backdrop-filter: blur(20px); 
+    z-index: 1; 
+}
+
+.penetrate-blur p {
+  font-size: 18px; /* 文本字号，根据需要调整 */
+  margin-bottom: 15px; /* 文本段落之间的垂直间距，根据需要调整 */
+  color: rgb(236, 233, 233); 
+  margin-left: 15pt;
+}
+
+.penetrate-blur p:first-child {
+  margin-top: 250px; /* 设置E-mail这一行的上边距为300px */
+}
+
+
+.penetrate-blur h2 {
+  font-size: 250px;
+  color: aliceblue;
+}
+
+.avatar-container {
+  position: fixed;
+  top: 27%; 
+  transform: translateY(-50%); 
+  left: 65px; 
+  width: 150px;
+  height: 150px;
+  background-color: #fff; 
+  border: 1px solid #20213a; 
+  border-radius: 50%; 
+  z-index: 2; 
+  overflow: hidden; 
+}
+
+.avatar-container img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+}
+
+/* 个人简单介绍 */
+.right-text {
+  position: absolute;
+  top: 12%; /* 距离底部的距离，根据需要调整 */
+  left: 315px; /* 距离左侧的距离，根据需要调整 */
+  right: 40px; /* 距离左侧的距离，根据需要调整 */
+  background-color: rgba(83, 37, 12, 0.4); /* 方框的背景颜色，根据需要调整 */
+  color: #fff; /* 文本颜色，根据需要调整 */
+  padding: 10px; /* 内边距，根据需要调整 */
+  border-radius: 5px; /* 圆角边框，根据需要调整 */
+  box-shadow: 2px 2px 5px rgba(83, 37, 12, 0.4); /* 阴影效果，根据需要调整 */
+}
+
+.right-text h1{
+  font-size: 32;
+}
+
+.right-text p{
+  font-size: 18px;
+}
+
+
+/* 公共经济学笔记 */
+.publis-economics {
+  position: relative;
+
+  top: 70px; /* 距离底部的距离，根据需要调整 */
+  width: calc(100% - 355px); /* 100%减去左右边距的总宽度 */
+  margin-left: 320px; /* 设置左边距为20px */
+  margin-right: 35px; /* 设置右边距为30px */
+  background-color: rgba(83, 37, 12, 0.4); /* 方框的背景颜色，根据需要调整 */
+  color: rgb(240, 232, 232); /* 文本颜色，根据需要调整 */
+  padding: 10px; /* 内边距，根据需要调整 */
+  border-radius: 5px; /* 圆角边框，根据需要调整 */
+  box-shadow: 2px 2px 5px rgba(83, 37, 12, 0.4); /* 阴影效果，根据需要调整 */
+
+
+}
+
+.publis-economics h1{
+  font-size: 32;
+  line-height: 200%;
+}
+
+.publis-economics p{
+  font-size: 18px;
+  line-height: 150%;
+}
+.publis-economics a{
+  font-size: 18px;
+  line-height: 150%;
+  color: rgb(240, 232, 232);
+}
+
+/* 国际贸易笔记 */
+
+.international-trade {
+  position: relative;
+  top: 85px; 
+  width: calc(100% - 355px); /* 100%减去左右边距的总宽度 */
+  margin-left: 320px; /* 设置左边距为20px */
+  margin-right: 35px; /* 设置右边距为30px */
+  background-color: rgba(83, 37, 12, 0.4); /* 方框的背景颜色，根据需要调整 */
+  color: rgb(240, 232, 232); /* 文本颜色，根据需要调整 */
+  padding: 10px; /* 内边距，根据需要调整 */
+  border-radius: 5px; /* 圆角边框，根据需要调整 */
+  box-shadow: 2px 2px 5px rgba(83, 37, 12, 0.4); /* 阴影效果，根据需要调整 */
+
+}
+
+.international-trade h1{
+  font-size: 32;
+  line-height: 200%;
+}
+
+.international-trade p{
+  font-size: 18px;
+  line-height: 150%;
+}
+.international-trade a{
+  font-size: 18px;
+  line-height: 150%;
+  color: rgb(240, 232, 232);
+}
